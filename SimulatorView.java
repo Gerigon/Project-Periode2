@@ -3,6 +3,11 @@ package Parkeersimulator;
 import javax.swing.*;
 import java.awt.*;
 
+public static void main(String args[]) {
+    Game game = new Game();
+    game.play();
+}
+
 public class SimulatorView extends JFrame {
     private CarParkView carParkView;
     private int numberOfFloors;
