@@ -4,8 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 
 public static void main(String args[]) {
-    Game game = new Game();
-    game.play();
+    SimulatorView simulatorview = new SimulatorView();
+    simulatorview.play();
 }
 
 public class SimulatorView extends JFrame {
