@@ -2,7 +2,7 @@ package Parkeersimulator;
 
 import java.awt.*;
 
-/* test rob */
+/* test rutger */
 
 public abstract class Car {
 
